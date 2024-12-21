@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Age Calculator</h1>
+        <p>Find out your exact age in seconds!</p>
+    </header>
+    <main>
+        <section class="calculator">
+            <h2>Enter Your Date of Birth</h2>
+            <form id="ageForm">
+                <div class="input-group">
+                    <label for="day">Day:</label>
+                    <input type="number" id="day" min="1" max="31" placeholder="DD" required>
+                </div>
+                <div class="input-group">
+                    <label for="month">Month:</label>
+                    <input type="number" id="month" min="1" max="12" placeholder="MM" required>
+                </div>
+                <div class="input-group">
+                    <label for="year">Year:</label>
+                    <input type="number" id="year" min="1900" max="2100" placeholder="YYYY" required>
+                </div>
+                <button type="button" onclick="calculateAge()">Calculate Age</button>
+            </form>
+            <p id="result"></p>
+        </section>
+    </main>
+    <footer>This project was coded by
+        <a href="https://github.com/AiatSaied" target="_blank">Aiat Saied</a>
+        is
+        <a href="" target="_blank">open-sourced on Github</a>
+    </footer>
+    
+    <script src="src/index.js"></script>
+</body>
+</html>
