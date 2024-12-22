@@ -32,5 +32,5 @@ function calculateAge() {
     }
 
     document.getElementById("result").innerText = 
-        `You are ${ageYears} years, ${ageMonths} months, and ${ageDays} days old......`;
+        `You are ${ageYears} years, ${ageMonths} months, and ${ageDays} days old`;
 }
